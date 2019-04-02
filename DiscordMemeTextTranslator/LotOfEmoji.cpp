@@ -3,7 +3,6 @@
 /*
 Takes an input and converts some chars in it to Discord emojis such as :b: and :a:.
 */
-
 std::string LotOfEmojiTranslator(std::string input) {
 	std::string output = "";
 	for (char& c : input) {
